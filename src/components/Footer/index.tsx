@@ -14,14 +14,14 @@ const Footer: React.FC = () => {
       copyright={`${currentYear} ${defaultMessage}`}
       links={[
         {
-          key: 'gitee',
-          title: 'gitee',
+          key: 'gitee index',
+          title: 'gitee首页',
           href: 'https://gitee.com/wangkeyaowky',
           blankTarget: true,
         },
         {
-          key: 'github',
-          title: 'github',
+          key: 'github index',
+          title: 'github首页',
           href: 'https://github.com/Afterlll',
           blankTarget: true,
         },
@@ -29,10 +29,10 @@ const Footer: React.FC = () => {
           key: 'github',
           title: (
             <>
-              <GithubOutlined /> 源码
+              <GithubOutlined /> 生成器源码
             </>
           ),
-          href: 'https://github.com/Afterlll',
+          href: 'https://github.com/Afterlll/jxy-generator',
           blankTarget: true,
         },
       ]}

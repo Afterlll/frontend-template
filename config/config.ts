@@ -73,7 +73,7 @@ export default defineConfig({
    * @name layout 插件
    * @doc https://umijs.org/docs/max/layout-menu
    */
-  title: '江喜原前端万用模板',
+  title: '江喜原代码生成',
   layout: {
     locale: true,
     ...defaultSettings,
@@ -129,8 +129,7 @@ export default defineConfig({
   openAPI: [
     {
       requestLibPath: "import { request } from '@umijs/max'",
-      // todo 修改后端 api 地址
-      schemaPath: 'http://localhost:8101/api/v3/api-docs',
+      schemaPath: 'http://localhost:8120/api/v2/api-docs',
       projectName: 'backend',
     },
   ],

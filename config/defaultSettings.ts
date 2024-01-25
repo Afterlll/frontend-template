@@ -8,14 +8,13 @@ const Settings: ProLayoutProps & {
   logo?: string;
 } = {
   navTheme: 'light',
-  // 拂晓蓝
   colorPrimary: '#2F54EB',
   layout: 'top',
   contentWidth: 'Fixed',
   fixedHeader: false,
   fixSiderbar: true,
-  colorWeak: true ,
-  title: '江喜原前端万用模板',
+  colorWeak: false,
+  title: '江喜原代码生成',
   pwa: true,
   iconfontUrl: '',
   token: {
